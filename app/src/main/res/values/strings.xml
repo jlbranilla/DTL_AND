@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Distriluz</string>
+    <string name="title_atenciones">Mis atenciones</string>
+    <string name="title_pago">Lugares de pago</string>
+    <string name="title_reporte">Reporte de averías</string>
+    <string name="title_reclamos">Reclamos</string>
+    <string name="title_menu">Menú</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrar_usuario">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal"
+        android:text="Registra tus datos"
+        android:textColor="#003591"
+        android:textColorLink="#003591"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Nombres" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Apellidos" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Documento de identidad" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="date" />
+
+</RelativeLayout>

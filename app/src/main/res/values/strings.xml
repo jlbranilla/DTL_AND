@@ -5,4 +5,11 @@
     <string name="title_reporte">Reporte de averías</string>
     <string name="title_reclamos">Reclamos</string>
     <string name="title_menu">Menú</string>
+    <string name="asociar_suministro_title">ASOCIAR SUMINISTRO</string>
+    <string name="asociar_suministro_subtitulo">
+        Ud. puede asociar un máximo de cinco (5) suministros a su cuenta
+    </string>
+    <string name="asociar_suministro_codigo">
+        Digite el código del suministro a asociar
+    </string>
 </resources>

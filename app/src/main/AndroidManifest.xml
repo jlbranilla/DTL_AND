@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".registrar_usuario" />
-        <activity android:name=".configuracion"></activity>
+        <activity android:name=".configuracion" />
+        <activity android:name=".AsociarSuministro"
+            android:label="@string/asociar_suministro_title"></activity>
     </application>
 
 </manifest>

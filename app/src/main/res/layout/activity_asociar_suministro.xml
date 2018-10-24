@@ -1,0 +1,30 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AsociarSuministro"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="35dp"
+        android:text="@string/asociar_suministro_subtitulo"
+        android:textStyle="bold"
+        android:id="@+id/tvSubTitulo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asociar_suministro_codigo"
+        android:layout_below="@+id/tvSubTitulo"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

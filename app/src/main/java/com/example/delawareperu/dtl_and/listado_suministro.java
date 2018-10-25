@@ -1,5 +1,6 @@
 package com.example.delawareperu.dtl_and;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -8,7 +9,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 public class listado_suministro extends AppCompatActivity {
-
+    TextView txtNombre, tvUsuario, tvPassword;
     private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -41,6 +42,20 @@ public class listado_suministro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado_suministro);
+
+        txtNombre = (TextView) findViewById(R.id.txtdata);
+        tvUsuario = (TextView) findViewById(R.id.txtusuario);
+        tvPassword = (TextView) findViewById(R.id.txtpass);
+
+        Intent intent = getIntent();
+        String name = intent.getStringExtra("name");
+        String username = intent.getStringExtra("username");
+        String password = intent.getStringExtra("password");
+
+        txtNombre.setText(name);
+        tvUsuario.setText(username);
+        tvPassword.setText(password);
+
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);

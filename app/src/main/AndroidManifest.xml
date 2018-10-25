@@ -8,18 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/ThemeLogin">
         <activity
             android:name=".listado_suministro"
             android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".registrar_usuario" />
+        <activity android:name=".configuracion"></activity>
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".registrar_usuario" />
-        <activity android:name=".configuracion"></activity>
     </application>
 
 </manifest>
